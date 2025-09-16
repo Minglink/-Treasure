@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Treasure"
         tools:targetApi="31">
+
+        <!--高德地图的KEY配置-->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="65f56324ffcfbb960b9e0fce5aaf87c8"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

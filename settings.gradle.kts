@@ -16,6 +16,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven{ url = uri("https://maven.amap.com/repository/3d")
+        //content{includeGroupByRegex("com\\.amap\\.api.*")}
+        }
+        maven{ url = uri("https://maven.amap.com/repository/search")
+        //content{includeGroupByRegex("com\\.amap\\.api.*")}
+        }
     }
 }
 
